@@ -120,7 +120,7 @@ function draw() {
   var painAmount = map(Physical_Pain, 0, 10, 0, 255);
   noStroke();
   fill(187, 62, 3, painAmount);
-  scale(1);
+  scale(0.48);
   beginShape();
   vertex(450, 200);
   vertex(525, 275);
